@@ -45,7 +45,7 @@ if not os.path.isfile(COFIG_FILE_NAME):
     config = configparser.ConfigParser()
 
     # Define sections with Key: Value pairs
-    config['TFishbowlDatabase'] = {'host': '127.0.0.1',
+    config['FishbowlDatabase'] = {'host': '127.0.0.1',
                         'port': '3305',
                         'user': 'gone',
                         'password': 'fishing',
